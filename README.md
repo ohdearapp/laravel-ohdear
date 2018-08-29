@@ -1,4 +1,4 @@
-# Very short description of the package
+# Easily integrate the Oh Dear API into a Laravel app
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ohdearapp/laravel-ohdear.svg?style=flat-square)](https://packagist.org/packages/ohdearapp/laravel-ohdear)
 [![Build Status](https://img.shields.io/travis/ohdearapp/laravel-ohdear/master.svg?style=flat-square)](https://travis-ci.org/ohdearapp/laravel-ohdear)

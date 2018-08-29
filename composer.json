@@ -1,6 +1,6 @@
 {
     "name": "ohdearapp/laravel-ohdear",
-    "description": ":package_description",
+    "description": "Easily integrate the Oh Dear API into a Laravel app",
     "keywords": [
         "ohdearapp",
         "laravel-ohdear"
