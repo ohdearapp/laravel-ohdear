@@ -5,9 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/ohdearapp/laravel-ohdear.svg?style=flat-square)](https://scrutinizer-ci.com/g/ohdearapp/laravel-ohdear)
 [![Total Downloads](https://img.shields.io/packagist/dt/ohdearapp/laravel-ohdear.svg?style=flat-square)](https://packagist.org/packages/ohdearapp/laravel-ohdear)
 
-**Note:** Replace ```Freek Van der Herten``` ```freekmurze``` ```freek@ohdearapp.be``` ```laravel-ohdear``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
-
-This is where your description should go. Try and limit it to a paragraph or two.
+//TODO: add some easy examples.
 
 ## Installation
 
