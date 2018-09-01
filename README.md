@@ -3,6 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ohdearapp/laravel-ohdear.svg?style=flat-square)](https://packagist.org/packages/ohdearapp/laravel-ohdear)
 [![Build Status](https://img.shields.io/travis/ohdearapp/laravel-ohdear/master.svg?style=flat-square)](https://travis-ci.org/ohdearapp/laravel-ohdear)
 [![Quality Score](https://img.shields.io/scrutinizer/g/ohdearapp/laravel-ohdear.svg?style=flat-square)](https://scrutinizer-ci.com/g/ohdearapp/laravel-ohdear)
+[![StyleCI](https://github.styleci.io/repos/146663329/shield?branch=master)](https://github.styleci.io/repos/146663329)
 [![Total Downloads](https://img.shields.io/packagist/dt/ohdearapp/laravel-ohdear.svg?style=flat-square)](https://packagist.org/packages/ohdearapp/laravel-ohdear)
 
 This package makes it easy to work with [the Oh Dear! sdk]((https://github.com/ohdearapp/ohdear-php-sdk)) in a Laravel app. Once configured you can call all the sdk methods on the `OhDear` facade
