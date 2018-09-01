@@ -24,19 +24,19 @@ class OhDearTest extends TestCase
 
         $this->assertInstanceOf(OhDear::class, $ohDear);
 
-        $this->assertEquals('dummy',$ohDear->apiToken);
+        $this->assertEquals('dummy', $ohDear->apiToken);
     }
 
     /** @test */
     public function the_facade_is_registered()
     {
-        app()->bind(OhDear::class, function() {
-           return new class() {
+        app()->bind(OhDear::class, function () {
+            return new class() {
                 public function sites()
                 {
                     return 'sites';
                 }
-           };
+            };
         });
 
         $this->assertEquals('sites', \OhDear::sites());

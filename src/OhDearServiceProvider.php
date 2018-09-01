@@ -2,10 +2,10 @@
 
 namespace OhDear\LaravelOhDear;
 
-use Illuminate\Support\ServiceProvider;
-use OhDear\LaravelOhDear\Exceptions\ConfigNotCorrect;
 use OhDear\PhpSdk\OhDear;
 use OhDear\PhpSdk\Resources\Site;
+use Illuminate\Support\ServiceProvider;
+use OhDear\LaravelOhDear\Exceptions\ConfigNotCorrect;
 
 class OhDearServiceProvider extends ServiceProvider
 {
@@ -17,7 +17,7 @@ class OhDearServiceProvider extends ServiceProvider
             ], 'config');
         }
 
-        $this->app->singleton(OhDear::class, function() {
+        $this->app->singleton(OhDear::class, function () {
             $token = config('oh-dear.api_token');
 
             if (! $token) {
@@ -30,12 +30,12 @@ class OhDearServiceProvider extends ServiceProvider
 
         $this->app->alias(OhDear::class, 'oh-dear');
 
-        $this->app->bind(Site::class, function() {
+        $this->app->bind(Site::class, function () {
             if (! $siteUrl = config('oh-dear.site_url')) {
                 throw ConfigNotCorrect::siteUrlMissing();
             }
 
-           return app(OhDear::class)->siteByUrl($siteUrl);
+            return app(OhDear::class)->siteByUrl($siteUrl);
         });
     }
 
