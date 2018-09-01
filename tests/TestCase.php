@@ -2,14 +2,9 @@
 
 namespace OhDear\LaravelOhDear\Tests;
 
-use Illuminate\Filesystem\Filesystem;
-use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Storage;
 use OhDear\LaravelOhDear\Facades\OhDear;
-use OhDear\LaravelOhDear\OhDearServiceProvider;
-use Spatie\Backup\BackupServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\BackupTool\BackupToolServiceProvider;
+use OhDear\LaravelOhDear\OhDearServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
