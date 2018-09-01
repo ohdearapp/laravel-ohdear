@@ -9,7 +9,8 @@ return [
     'api_token' => env('OH_DEAR_API_TOKEN', ''),
 
     /*
-     * The url of your site.
+     * The url of your site as shown in Oh Dear.
+     * It should start with either 'http' or 'https'.
      */
-    'site_url' => env('OH_DEAR_SITE_URL', env('APP_URL', '')),
+    'site_url' => env('OH_DEAR_SITE_URL', ''),
 ];
