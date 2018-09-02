@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "OhDear\\LaravelOhDear\\LaravelOhDearServiceProvider"
+                "OhDear\\LaravelOhDear\\OhDearServiceProvider"
             ],
             "aliases": {
-                "LaravelOhDear": "OhDear\\LaravelOhDear\\LaravelOhDearFacade"
+                "LaravelOhDear": "OhDear\\LaravelOhDear\\OhDear"
             }
         }
     }
